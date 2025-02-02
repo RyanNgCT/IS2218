@@ -74,6 +74,7 @@ We study companies of different sizes, logics. We are in need of new business mo
 	- i.e. social media
 
 - platforms also focus on ease of use of their products and services through the consideration of various factors such as: simplicity, usability and customer immediacy (satisfying the wants in a short period of time)
+	- not including multi-page T&C documents for insurance apps to improve user friendliness
 
 ### Fostering Innovation in Platforms
 - growing interest in digital platforms global started in the 2010s
@@ -132,10 +133,16 @@ Even though Digital Platforms might be considered small in the early stages (in 
 ## Module 3: The history of platforms
 1. We can use platforms as a model that inspires innovation
 2. The concept of the word `platform` is complex and inconsistent, across those who define them.
+
+- misconception that platforms are for the younger people has some tech literacy barrier to entry $\implies$ diverse group of users
+	- platforms are very human-related as the audience that they serve.
+
+- platforms are more horizontal rather than hierarchical in nature
 ### Product Platforms
 **Example: The Sony Walkman**
 - the first definition of product platform or internal platform
 > A platform is a set of components that create a basic structure common across many of the company's products.
+- product platforms can be quite local in nature, have to be scaled one city or locality at a time.
 
 - device to listen to music on the day
 	- average obsolescence of the product was 2 years, $\gt 1.2$ year average of other competitors $\implies$ longer life cycle on the market
@@ -170,22 +177,103 @@ Even though Digital Platforms might be considered small in the early stages (in 
 	- OS/software platforms are an intermediary between end-users and developers (who are complementors)
 
 Value is captured by:
-3. retaining some % of transactions made by end-users and complementors, who sell the product $\implies$ allowing others to innovate on the platform
-4. charging complementors for access to the platform (subscription-based fees) $\implies$ directly selling the platform as a service
+1. retaining some % of transactions made by end-users and complementors, who sell the product $\implies$ allowing others to innovate on the platform
+2. charging complementors for access to the platform (subscription-based fees) $\implies$ directly selling the platform as a service
 
 > **Innovation Platforms** are products, services and technologies that act as a foundation on which external innovators / complementors can develop their own complementary products, services or technologies.
 - also known as industry-wide platforms, as they are industry specific
+- is a solution that pulls two sided markets together
 
+**Example 2: iOS**
+- allows developers to create something new
 #### Differences between Product and Innovation Platforms
 
-| Similarities to Product                                                    | Differences from Product                                                                                                           |
-| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Enable Innovation by simplifying product development processes             | Platform itself can be a product (for complementors)                                                                               |
-| Start from common structure to establish diversified products and services | Externalities can impact the value of the platform (cannot really control the risks associated with a product / internal platform) |
-|                                                                            | Platforms can be monetized and value may be captured through innovations of complementors                                          |
+| Similarities to Product                                                    | Differences from Product                                                                                                                    |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enable Innovation by simplifying product development processes             | Platform itself can be a product (for complementors)                                                                                        |
+| Start from common structure to establish diversified products and services | Network Externalities* can impact the value of the platform (cannot really control the risks associated with a product / internal platform) |
+|                                                                            | Platforms can be monetized and value may be captured through innovations of complementors                                                   |
+
+*Network externalities are when consumer purchasing decisions are influenced by their peer's purchasing decisions as well
 
 ### Transactional two-sided platforms
-Has two sides, i.e. in a credit card example
+Has two distinct sides, i.e. in a credit card example
 1. Card-holders (1st side)
 2. VISA / Master (the platform)
-3. Merchants (2nd side)
+3. Merchants (2nd side) $\implies$ complementor pays the platform for the platform as a product
+
+**Background**
+- Without a platform, we have a customer-supplier dynamic
+- In context of a platform, *both* Card-holders and Merchants *are customers*, that are **directly linked together**
+- Card has no value, unless there are merchants who are willing to accept the card that the cardholder holds
+- platforms enhance the reach of consumers and complementors who otherwise will not have such an opportunity to perform transactions as easily.
+	- requires a lot of players on both side of the game and supply that the complementors provide (issue of meeting supply for goods and services with demand)
+
+Mechanism of interdependence is called indirect network externalities
+- value of platforms dependent on the actors on both sides of the platform (there is no linear value chain, unless a more traditional business)'
+- platforms *need to convince* said two groups of their business idea & for both to want to participate in it $\implies$ has no intrinsic value yet (chicken and egg paradox)
+	- platforms can choose to subsidize the side that is harder to convince $\implies$ how to define the pricing strategy of the platform
+	- cross-price elasticity of demand between the two sides as a metric for identifying which side to subsidize
+	- platform needs to sort of fake the impression to onboard complementors
+
+> **Two-sided Markets** is when we have two distinct customers bases leveraging cross-side externalities
+- allows the players involved to get in touch, know one another and work together
+- can further evolve to become Transactional Two-sided Platform $\implies$ create value by connecting different groups or customers
+	- increase product's value of a result of complementary or competing products
+- need to understand customer's needs on both sides to derive a good idea of what the market is looking out for.
+
+- derive value creation from this centralization of commerce (but without intrinsic value, as no tangible products are created)
+	- rather the facilitating of transactions between sides.
+
+- like innovation platforms, transactional platforms require $\geq 2$ groups, but it cannot function without at least 2 sides.
+
+**Example: Apple App Store**
+
+### Regulation of platforms
+- role is to listen to stakeholders and try to find a way to protect the interests of all of them if at all possible.
+
+> Sharing economy is a concept based on platforms, in which we are sharing goods with other people.
+-  have to strike a balance between being liberal and protectionist with platform policies
+
+- Scaling of platforms should take place from one locality to another since the regulations greatly vary.
+
+### Orthogonal (Non-Transactional)  Two-Sided Platforms
+ > Platform Thinking: being able to use platform mechanisms, even if we don't see them by default.
+- Agencies were platforms for newspapers and advertisers.
+- enables businesses to broaden their business model by increasing the value captured by the platform
+#### Client as the target
+**Platform: Newspaper Publishers**
+- readers of newspapers (Youtube videos) being subsidized by advertisers
+- advertisers buy the reader's attention
+- a platform does not allow a transaction btwn the two sides.
+
+- readers <-> platform, platform orthogonal to advertisers
+	- in this case, the readers only receive a service controlled by the central platform.
+	- advertisers make the business model economically sustainable through the financial value that it generates
+
+> **Orthogonal Platforms** are products and services based on the sale of **different services** to two groups of customers who don't come in direct contact (no digital marketplace), instead relying on a unidirectional cross-side network externality.
+- value of the platform increase for users on one side because there are more users on the other side, but converse not true.
+- value generated by advertisers increases as readership increase, but not the reverse.
+#### Client as the source
+- social networks, i.e. Twitter (free for the end user until Elon Musk)
+	- creating new service to purchase tweets for a specific topic (i.e. US elections)
+
+Orthogonal side leverages the mass of users created by the platform as a source of service (i.e. the data collected from twitter users are used by advertisers paying twitter)
+
+
+1. Fusion of Client-as-a-target and Client-as-a-Source models
+	- create enhanced advertising
+	
+2. E-ethnography
+	- using collected data to do market research on customer perceptions (social domains of interaction through internet technologies used)
+
+3. Data Trading
+	- done with aggregate data and not individual data entries.
+
+---
+## Module 4: Hybrid Platforms and the future of platforms
+- are inherently not the same, vary from one to another
+
+- if there is only one group of users, the business is **NOT** a platform (i.e. needs to have complementors to be termed as such).
+
+- as # users $\uparrow$ , value generated $\uparrow$
