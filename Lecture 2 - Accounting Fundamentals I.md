@@ -112,6 +112,8 @@ Liability depends on the prevailing interest rates (usually book value $\lt$ mar
 ## C. Income Statement
 - "is the video" that tells us the story
 - how much money did the corporation make
+- account of all the profit and loss that the company incurs
+	- what is the firm's net income?
 #### Terminology / Format
 - (+) Net Sales (a.k.a. Revenue)
 - (+) Other Income
@@ -121,9 +123,27 @@ Liability depends on the prevailing interest rates (usually book value $\lt$ mar
 	- costs incurred regardless of net sales (not attributable)
 
 - (-) Depreciation Expense (non-accumulative, only for the current fiscal year)
-- Earnings before Interest and Income Tax (EBIT) $\implies$ result of above
+- Earnings before Interest and Income Tax (EBIT) $\implies$ result of all of above amount
 
 - (-) Interest Expense
 - (-) Taxes
 - Net Income (the subtotal)
+
+### Slide 21 Example
+a) Find out the Taxable income based on the tax rate
+$$
+\begin{aligned}
+	\text{Given 20\% corp tax rate, taxable income} &= \frac{2000}{20} \times 100 = 10,000 \\
+	\text{Taxable Income = texable income - taxes paid} &= 10,000 - 2,000 = 8,000
+\end{aligned}
+$$
+
+b) Revenue  (add back all the expenses made by the company)
+
+c) `EBIT = Revenue - Cost - Depreciation`
+$$
+\begin{aligned}
+\text{EBIT } = 23,000 - \text{CoGS, Expenses and Depreciation} &= 23,000 - 8,000 - 3,000 - 1,000 = 11,000
+\end{aligned}
+$$
 
