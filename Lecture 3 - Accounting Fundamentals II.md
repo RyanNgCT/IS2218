@@ -1,14 +1,23 @@
 ## A. Profit vs Cash Flow
 **Key Question: What is this `Cash Flow`?**
+difference between profit and cash
+- depreciation
+- accrual accounting
 #### 1. Depreciation
-- differs by depreciation - non-cash expenses
-- simply an accounting mechanism to split the expense of the acquisition over the period of asset's useful life
+- *differs by depreciation* - non-cash expenses (is like a phantom cost)
+- simply an **accounting mechanism** to split the expense of the acquisition over the period of asset's useful life
+	- amount of the cost price that the asset has used for this year
+
+- use profit subtract depreciation
+
 - Depreciation is not depleting cash, it is just subtracted from our profits
 	- Profits ignore cash expenditure
 	- when we buy new equipment, the expense is capitalized (increase equipment account by $X$ value)
 	- don't record expenses of $X$ in our income statement immediately
 
 - Depreciation is like a phantom costs, is a non-cost expense (asset value is decrease).
+
+- Depreciation causes an actual decrease on the income statement
 
 not enough for company to make money strictly according to the income statement
 #### 2. Accrual Accounting
@@ -19,7 +28,7 @@ not enough for company to make money strictly according to the income statement
 
 - must match the revenue and the expenses
 
-IS2218 is not looking at this at a transactional level, but rather to understand what annual reports means.
+IS2218 is not looking at this at a transactional level, but rather to understand what *annual reports* means.
 
 **Slide 24**
 - At the point of period 2 (when the sale occurs), the agreed-upon amount to collect from the customer is also recorded in income statement of the company
@@ -56,8 +65,12 @@ f. Net fixed assets increased from $800 million to $900 million during 2019. Wha
 	- shows the journey or process
 
 - is not a new statement, can be constructed using a balance sheet and income statement
-
+	- this is required for business who conform to accrual accounting standards
 - if we don't receive cash, we can't record it (???)
+
+- Main Principle: Records revenue as it is earned and record expenses as they are incurred
+
+- Net cash flow should match up
 
 **Components**
 Only Three uses of cash (inflow or outflow)

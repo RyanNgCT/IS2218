@@ -107,6 +107,8 @@ Companies have to deal with two kinds of problems -- investment decisions and fi
 - The Board of Directors is **elected by shareholders** to safeguard their interests in the company (similar to elected MPs serving constituencies)
 	- main role is to appoint the managers (i.e. C-suite) and monitor their performance (are they meeting the goals, KPIs to help shareholders earn money)
 	- if someone buys over 100% of company by offering a rate higher than the current share price, then sometimes the BoD has no choice but to give in and allow the buy-over / acquisition.
+
+- professional corporation $\implies$ owner is also involved in delivering the service to the clients
 #### Types of Corporations
 - public: can *trade that stock* in the stock market (i.e. a share of Apple Inc.)
 - private: it is *privately held* (i.e. a privately down juice shop)
@@ -116,6 +118,7 @@ Limited liability - cannot come after owners if company closes down
 - often uses bank loans as the financing option / financial decision
 	- bank can come after the owner's assets if he owes them money and is proven to be unable to repay the loan amount (i.e. failure to pay back loan may result in the loss of assets)
 	- however, as a shareholder of a corporation, one is **not responsible** for the corporation owing money.
+	- there is no distinction legally between the owner and the manager
 ### 3. Types of Businesses
 1. Sole Proprietorship (see above)
 	- self-owned, self-employed
