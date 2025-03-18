@@ -4,11 +4,12 @@ difference between profit and cash
 - depreciation
 - accrual accounting
 #### 1. Depreciation
-- *differs by depreciation* - non-cash expenses (is like a phantom cost)
+- *differs by depreciation*
 - simply an **accounting mechanism** to split the expense of the acquisition over the period of asset's useful life
 	- amount of the cost price that the asset has used for this year
 
-- use profit subtract depreciation
+- use profit subtract depreciation (as a non-cash **expense**), since money "leaves" the system
+- profits ignore cash expenditures on new capital
 
 - Depreciation is not depleting cash, it is just subtracted from our profits
 	- Profits ignore cash expenditure
@@ -18,8 +19,18 @@ difference between profit and cash
 - Depreciation is like a phantom costs, is a non-cost expense (asset value is decrease).
 
 - Depreciation causes an actual decrease on the income statement
+	- actual cash is not leaving the system, so it is recorded on the income statement and not the balance sheet.
+	- entire upfront cost of asset is **not entirely used** to generate the profit and thus it is not recorded *fully* in the income statement (need another mechanism to record depreciation $\implies$ hence comes the cash flow statement)
+		- only a small chunk of it called depreciation
+		- also need cash to make purchases
 
 not enough for company to make money strictly according to the income statement
+
+**Profit**
+- looking at all the revenues and costs associated with a sale
+
+**Share Price**
+- even though profits are low, share prices may be quite high $\implies$ share price is a function of **future earning potential**
 #### 2. Accrual Accounting
 - "profits" record income and expense at the time of the sale, not at the time when cash exchanges actually occur
 	- sale is recorded today, we record the profit **at the point of service rendered**
@@ -72,9 +83,11 @@ f. Net fixed assets increased from $800 million to $900 million during 2019. Wha
 
 - Net cash flow should match up
 
+- **cannot** just tally up the cash outflows and inflows to obtain the cash balance
+
 **Components**
 Only Three uses of cash (inflow or outflow)
-- Cash provided by Operations (short-term)
+- Cash provided by Operations (short-term, involves current assets and liabilities)
 	- in my daily operations, how much cash am I receiving and spending?
 	- derived from the income statement
 	- include working capital items: a preset of $5$ possible items.
@@ -95,6 +108,10 @@ Only Three uses of cash (inflow or outflow)
 	- used direct methods $\implies$ record the inflow and outflow of cash directly (using the Balance Sheet) 
 	- Short-term debt is parked under here.
 
+### Summary
+- Cash from Ops (changes to current assets / liabilities) 
+- Cash from Investments (changes to long-term assets only) 
+- Cash from Financing (changes to liabilities and equity)
 ### Others
 Revenue (sales) before expenses, income after expenses.
 - both sales and net income is detailed in the income
@@ -104,6 +121,8 @@ Net increase (or decrease) should be the difference between cash in the balance 
 Leverage = interest rate is very low for the amount borrowed $\implies$ reduction of tax burden.
 
 ### Free Cash Flow
+- is available to everyone, including non-shareholders
+
 - how to performance of a company (i.e. hard for startups to break even and obtain an income / profit)
 - One with debt versus one of equity
 	- debt: pay a lot of interest to the bank
