@@ -131,7 +131,6 @@ B: (20,000 - 1,000) \times (1 + 0.1)^2 &= 22,990 \\\\
 \therefore \:, \text{we choose option A.}
 \end{aligned}
 $$
-
 ##### How many times have you heard of an investment adviser who promises to double your money? Is this really an amazing feat? That depends on how long it will take for your money to double. With enough patience, your funds eventually will double even if they earn only a very modest interest rate. Suppose your investment adviser promises to double your money in 8 years. What interest rate is implicitly being promised?
 $$
 \begin{aligned}
@@ -187,7 +186,7 @@ $$
 $$
 \begin{aligned}
 PV &= \frac{c}{(1+ r)^t} \\\\
-PV_{\text{Perpetuity}} &= \frac{C}{r} \qquad \text{ where r } \geq 0 \quad \neq \frac{C}{1 + r}
+PV_{\text{Perpetuity}} &= \frac{C}{r} \qquad \text{ where r } \gt 0 \quad \text{ and } \neq \frac{C}{1 + r}
 \end{aligned}
 $$
 ##### Example 1a: In order to create an endowment, which pays $100,000 per year forever, how much money must be set aside today in the rate of interest is 10%?

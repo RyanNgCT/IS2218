@@ -1,16 +1,21 @@
 ## A. Perpetuities and Annuities
-**Present Value Annuity Factor**
+**Present Value of Annuity**
+- gives us how much the cash flows are worth in today's dollars
 $$
-PV = C \times \left(\frac{1}{r} - \frac{1}{r(1+r)^t}\right)
+PV_{\text{Annuity}} = C \times \left(\frac{1}{r} - \frac{1}{r(1+r)^t}\right)
 $$
 
 **Future Value of Annuity Payment**
 - find out how much value that we want to have at a certain point in time (i.e. at the point of retirement)
 $$
-FV = [C \times PVAF] \times (1 + r)^t
+\begin{aligned}
+FV &= [C \times PVAF] \times (1 + r)^t \\\\
+&= C \times \frac{(1 + r)^t -1}{r}
+\end{aligned}
 $$
-- $C \times PVAF \implies$ total investments, when converted to present value
+- recall $PV$ is also given by: $C \times PVAF \implies$ total investments, when converted to present value
 - we always assume that the saving is given **at the end of each year**
+- *bottom formula equivalent:* if we make a contribution of $\$c$ every month or year, at rate of $r\%$, then we can derive the value of the money at some later time (i.e. retirement)
 
 **Slide 39**
 $$
