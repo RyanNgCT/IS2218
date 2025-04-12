@@ -188,7 +188,7 @@ $$
 - series of cash payments that never stops (we get money perpetually) $\implies$ use the mimic frequent payments
 - also known as "till infinity"
 - $[0, \infty)$
-- is known as a geometric progression (assume $r \geq 0$ by default)
+- is known as a geometric progression (assume the rate $r \gt 0$ or is positive by default)
 $$
 \begin{aligned}
 PV &= \frac{c}{(1+ r)^t} \\\\
@@ -216,9 +216,9 @@ PV_{\text{Perpetuity}} &= \frac{1,000,000}{(1 + 0.1)^3}  = \$ 751,314.80 \quad \
 \end{aligned}
 $$
 
-> **Annuity** is the level stream of cash flows at regular intervals with a finite maturity
+> **Annuity** is the level stream of cash flows at *regular intervals* with a finite maturity
 - is *limited or finite*, for $n$ number of years (or months or days etc.)
-- a **fixed sum of money** of the same sum is being *received or paid* each year (i.e. equal cash flows)
+- a **fixed sum of money** of the same sum is being *received or paid* each year (i.e. equal cash flows over a set time period $t$)
 - $[0, n], n \in \mathbb{R}$
 - is basically for financial planning
 - has no definition of whereby we state when the equal cash flows begin
