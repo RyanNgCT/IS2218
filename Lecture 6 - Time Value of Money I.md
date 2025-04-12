@@ -7,6 +7,11 @@
 	- In total, we gain $5 \times 125,000 = 625,000$
 - Is it a good investment or not? How to answer this question?
 
+- Why do we need to measure value?
+	- i.e. use a weighing scale to "measure" of quantify the effectiveness of a particular diet
+	- need to measure for value (not good just to say how much we are getting, but when as well $\to$ determines the "value" of money as time goes on, which usually decreases)
+	- time value of money equation provides a value of money in **different time periods**
+
 - We compare this to putting the $500,000 sum in the bank or a fixed deposit
 	- need to evaluate **whether this a a good investment** (return for restaurant versus return of safer options)
 		- versus opportunity cost of higher or lower gains, depending on where we put the money (usually elsewhere)
@@ -134,11 +139,12 @@ $$
 ##### How many times have you heard of an investment adviser who promises to double your money? Is this really an amazing feat? That depends on how long it will take for your money to double. With enough patience, your funds eventually will double even if they earn only a very modest interest rate. Suppose your investment adviser promises to double your money in 8 years. What interest rate is implicitly being promised?
 $$
 \begin{aligned}
-2 &= 1 \times (1 + r)^8 \\
-\ln (1 + r)^8 &= \ln 2 \\
-e^{\ln (1 + r)} &= e^{\frac{\ln 2}{8}} \\
-(1 + r) &\approx 1.09050 \\
-r &= 0.0905 \text{}
+&\textbf{Advisor promises a FV of \$2 for every \$1 invested today:} \\
+&2 = 1 \times (1 + r)^8 \\
+&\ln (1 + r)^8 = \ln 2 \\
+&e^{\ln (1 + r)} = e^{\frac{\ln 2}{8}} \\
+&(1 + r) \approx 1.09050 \\
+&r = 0.0905 \quad \text{or 9.05\%}
 \end{aligned}
 $$
 ##### You are able to put $1,200 in the bank now, and another $1,400 in 1 year. If you earn an 8% rate of interest, how much will you be able to spend on a computer in 2 years?
@@ -148,7 +154,7 @@ $$
 \begin{aligned}
 1,200 \times (1+0.08)^2 &= 1,399.68 \\
 1,400 \times (1+0.08) &= 1,512 \\
-1,399.68 + 1,512 &= 2911.68
+1,399.68 + 1,512 &= \$ 2,911.68
 \end{aligned}
 $$
 ##### Your auto dealer gives you the choice to pay $15,500 cash now, or make three payments: $8,000 now and $4,000 at the end of the following two years. If your cost of money is 8%, which do you prefer?
@@ -186,22 +192,22 @@ $$
 $$
 \begin{aligned}
 PV &= \frac{c}{(1+ r)^t} \\\\
-PV_{\text{Perpetuity}} &= \frac{C}{r} \qquad \text{ where r } \gt 0 \quad \text{ and } \neq \frac{C}{1 + r}
+PV_{\text{Perpetuity}} &= \frac{C}{r} \qquad \text{ where r } \gt 0 \quad \text{ and } \neq \frac{C}{1 + r} \text{ (Normal Present Value)}
 \end{aligned}
 $$
 ##### Example 1a: In order to create an endowment, which pays $100,000 per year forever, how much money must be set aside today in the rate of interest is 10%?
 $$
 \begin{aligned}
-100,000 &= \frac{C}{0.1} \\\\
-\therefore C&= 1,000,000
+PV_{\text{Perpetuity}} &= \frac{100,000}{0.1} \\\\
+&= \$ 1,000,000
 \end{aligned}
 $$
 ##### Example 1b) If the first perpetuity payment will not be received until four years from today, how much money needs to be set aside today?
 - because we delay the perpetuity by $2$ years, we can save $\approx \$ 250,000$
 $$
 \begin{aligned}
-\text{1 year} &\implies \\
-\text{2 years} &\implies \\
+\text{1 year} &\implies \text{N.A.}\\
+\text{2 years} &\implies \text{N.A.}\\
 \text{3 years} &\implies 1,000,000 \\
 \text{4 years} &\implies 100,000 \\
 \text{5 years} &\implies 100,000 \\
@@ -212,9 +218,10 @@ $$
 
 > **Annuity** is the level stream of cash flows at regular intervals with a finite maturity
 - is *limited or finite*, for $n$ number of years (or months or days etc.)
-- a **fixed sum of money** of the same sum is being *received or paid* each year
+- a **fixed sum of money** of the same sum is being *received or paid* each year (i.e. equal cash flows)
 - $[0, n], n \in \mathbb{R}$
 - is basically for financial planning
+- has no definition of whereby we state when the equal cash flows begin
 $$
 \begin{aligned}
 P_2 - P_1 = PV_{\text{Annuity}} &= \frac{C}{r} - \frac{\frac{C}{r}}{(1 + r)^t} \\\\

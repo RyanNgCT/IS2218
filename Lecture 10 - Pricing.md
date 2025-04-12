@@ -29,7 +29,7 @@
 	- place: rental or ownership of tangible asset
 	- promotion: advertising spendings
 
-## B. Factors Influencing Price
+## B. Internal Factors Influencing Price
 - Economics $\implies$ Supply and Demand. Change at the intersection of both curves
 - Accounting $\implies$ based on variable and fixed costs
 	- take costs and add a margin to it
@@ -87,3 +87,34 @@
 
 - who sets the price?
 	- the top manager
+
+## D. Internal Factors Influencing Price
+#### Market and Demand
+- have different forms of competition
+- price elasticity of demand
+#### Consumer Perceptions
+- the price-quality relationship
+	- some handbags cost as much as downpayment for house but some people see value in it
+- price can be used in the absence of other cues
+
+#### Competitors
+- can be a reference point for pricing (i.e. market research leading to competitor pricing)
+- Responsiveness (i.e. Pepsi vs Coke)
+	- the response of competitors to price changes
+	- if both lower price, then they both just lose profits
+#### Other Factors
+
+
+### Price Skimming
+- charge a high price initially and as people willing to pay reduces, then we reduce the price for the next group of people
+	- consumers wanting to try product with a lower budget can then afford it (within their budget)
+- can be used when we do segmentation on price elasticity
+- public image of the product and company is good
+- should not reduce price $\implies$ $1 reduction in price would affect the bottom line / profit significantly, assuming that costs remain the same
+
+- Safety/Hedge
+	- cut directly from the bottom line which can severely impact revenues and profits
+	- can be dangerous but since we are starting from a high price, we have more room to do the skimming
+
+### Price Penetration
+- use when when customers are price sensitive, or when the experience curve effects operatives and potential competition
