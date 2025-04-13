@@ -2,6 +2,7 @@
 #### Present Value of Annuity
 - gives us how much each of the cash flows are worth in today's dollars
 	- ⚠ without the multiplicative factor of $(1+r)^t$
+	- usually will give multiple options if asking if exam for the variable $r \implies$ plug into calculator and check to see if it satisfies the equality (**should not** have one larger than the other)
 $$
 PV_{\text{Annuity}} = C \times \left(\frac{1}{r} - \frac{1}{r(1+r)^t}\right)
 $$
@@ -72,26 +73,62 @@ $$
 
 	- reduction of the principal amount of the loan is known as **amortization**
 
-- Bank starts to charge interest and so when we pay off the loan, a portion of payment is use to write off the interest value
+	- Mortgage / Loan is fully paid off when the end of year balance is zero.
+
+- Bank starts to charge interest and so when we pay off the loan, a **portion of payment** is use to write off the interest value and another to the principal sum (see above)
+	- the interest value component keeps decreasing as we pay of more of the principal value of the loan (a higher % of payment amount goes to *reduce the principal* amount rather than the interest amount)
+![mortgage](../assets/mortgage.png)
 ## D. Effective Interest Rates
+**Motivation**
+- we want to convert interest rates for each month, quarter etc. to one of an annual (standardization or normalization of interest rates)
+
 - effective annual interest rate is the interest rate that is annualized using compound interest
-- The Interest component keeps decreasing year on year
-	- higher % of payment amount goes to reduce the principal amount rather than the interest amount
 
 **Effective Annual Interest Rate**
 - how we can convert interest rates to an annual rate
-- we take into consideration the effect of compounding.
+- we take into consideration the **effect of compounding.**
+	- "multi-compounding", if we compound at $k$ periods in the year, where $k \in \{1, \: \ldots, \: 12\}$ for months and $k \in \{1, \: \ldots, \: 365\}$ 
+	- $n \implies$ no. of periods
+	- $i \implies$ the nominal interest rate
 $$
-EAR = (1 + MR)^{12} -1
+\begin{aligned}
+EAR &= (1 + MR)^{12} -1\\
+&= \left(1 + \frac{i}{n}\right)^n - 1
+\end{aligned}
+$$
+- when we have more compounding periods, we are more likely to have a higher EAR in general
+$$
+\begin{aligned}
+\text{EAR}_{\text{monthly}} &= \left(1 + \frac{0.12}{12}\right)^{12} -1 \\
+&= 0.12682 \\
+\text{EAR}_{\text{quarterly}} &= \left(1 + \frac{0.12}{4}\right)^{4} -1 \\
+&= 0.12550 \\\\
+&\therefore \text{EAR}_{\text{monthly}} \text{ (12 periods)}\gt \text{EAR}_{\text{quarterly}} \text{ (4 periods)}
+\end{aligned}
 $$
 **Annual Percentage Rate** $\to$ lousy
-- the interest rate that is annualized using **simple interest** (and not compound interest)
-- is quite frankly useless in calculations, but good for understanding
+- the interest rate that is annualized using **simple interest** (and not compound interest), which is **not used** by banks
+- is **not annualized** using compound interest
+- is quite frankly useless in calculations, but good for understanding (because not everyone is financially literate)
 $$
 APR = MR \times 12
 $$
+- $EAR - APR$ provides us with the **additional interest** as an effect of compounding
 
-- $EAR - APR$ provides us with the additional interest as an effect of compounding
+**Question in Slide 52**
+Given monthly rate of 1%, calculate EAR and APR.
+$$
+\begin{aligned}
+\text{EAR} &= (1 + 0.01)^{12} -1 \\
+&= 0.12682 \\
+&= 12.68 \% \quad \text{(to 2 d.p.)} \\\\
+\text{APR} &= 0.01 \times 12 \\
+&= 0.12 \\
+&= 12.00 \% \quad \text{(to 2 d.p.)} \\\\
+\textbf{Extra Interest} &= 12.68 - 12.00 \\
+&= 0.68\% \\\\\\\\\\\\\\
+\end{aligned}
+$$
 ## E. Relevant Spreadsheet Formulae
 - each of the values are dependent on the four other values
 - the brackets mean that the parameters are optional
@@ -101,45 +138,65 @@ $$
 - can use excel to do the assignment
 	- need to note the formula with the relevant rows
 	- can only used to be done without excel (by trail and error)
+	- note that $PMT = C$ (describes each payment we need to make for the annuity)
 
 - if the sign inverts $\implies$ rate lies between $5$ and $10$%
 
 - most of the formulas return a negative number
 ## F. Inflation
-> **Inflation** is the rate at which prices as a whole are increasing
-- inflation is done based on the usual things that people buy (the consumer price index)
+> **Inflation** is the rate at which prices *as a whole* are increasing
+- inflation rate is calculated based on the **change in the price of usual things** that people buy or consume (the consumer price index) $\implies$ there is a metric to measure how much does a given amount of thing $x$ costs at the certain time.
 
-> The **Nominal Interest Rate** is the rate at which money invested grows
-- *"current"* and *nominal* are interchangeable, does not take into account inflation (i.e. "GDP at current")
+> The **Nominal Interest Rate** is the *rate at which money* invested *grows*
+- *"current"* and *nominal* are interchangeable, ==**does not take inflation** into account== (i.e. "GDP at current prices"), may still have compounding in effect
+	- cannot just say that the $\text{GDP}$ of country is $2 \times$ because the output value is twice
+- also known as the discount rate as well
+- the bank will only give us the nominal interest rate
 
-> The **Real Interest Rate** is the rate at which the purchasing power of an investment increases
-- "GDP at *constant* prices" $\implies$ price is fixed, see if GDP is increasing
+> The **Real Interest Rate** is the rate at which the *purchasing power* of an investment increases
+- "GDP at *constant* prices" $\implies$ price is fixed, see if GDP is increasing (i.e. year on year GDP)
+- approximation formula for real interest rate as per below should not be used usually, when we don't have the actual figures
 $$
 \begin{aligned}
 \textbf{Accurate Formula:}\\
-
 1 + \text{real interest rate} &= \frac{1 + \text{nominal interest rate}}{1 + \text{inflation rate}} \\\\
-
 \textbf{Approximation Formula:} \\
 \text{Real int. rate} &\approx \text{nominal int. rate} - \text{inflation rate}
 \end{aligned}
 $$
-### Current vs Real Cash Flow
-- for current dollar cash flows (not considering inflation) $\implies$ **nominal interest rate**
-- for real dollar cash flows (considering inflation) $\implies$ **real interest rate**
 
-- today's dollars $\iff$ today's prices
+> **Hyperinflation**: money is not worth the paper that it has been printed on
 
----
-### Question
+**Slide 57 Example**
 $$
 \begin{aligned}
-\text{a)} \\
-PV &= 30,000 \times \left(\frac{1}{0.1} - \frac{1}{0.1(1+0.1)^{30}}\right) \\
-&= 282807.43 \quad \text{ (to 2 d.p.)} \\\\
-\text{b)} 
+1 + \text{real interest rate} &= \frac{1 + \text{nominal interest rate}}{1 + \text{inflation rate}} \\
+&= \frac{1 + 0.06}{1 + 0.02} \\
+&\approx 1.0392 \\\\
+\therefore \text{real interest rate} &= 1.0392 - 1 \\
+&= 3.92 \% \approx 4\%
 \end{aligned}
 $$
+#### Current vs Real Cash Flow
+- for current dollar cash flows (not considering inflation) $\implies$ **nominal interest rate**
+- for real dollar cash flows (considering inflation) $\implies$ **real interest rate**
+- today's dollars $\iff$ today's prices
+- cannot mix these 2 up
 
+---
+### Question 1
+$$
+\begin{aligned}
+&\textbf{Good news: You will almost certainly be a millionaire by the time you retire in 50 years.} \\
+&\textbf{Bad news: The inflation rate over your lifetime will average about 3\%.} \\
+&\text{(a) \textit{What will be the real value of \$1 million by the time you retire?}} \\
+&\text{(b) \textit{What real annuity will \$1 million support if the real interest rate at retirement is 2\% and the}} \\
+&\textit{annuity must last for 20 years?} \\\\
+&PV = \frac{1,000,000}{(1 + 0.03)^{50}} = \$228,107.08 \quad \text{(to 2 d.p.)} \\\\
+&PV_{\text{annuity}} = C \times \left(\frac{1}{0.02} - \frac{1}{0.02(1+0.02)^{20}}\right)\\\\
+&\therefore C = \frac{228,107.08}{15.3514} = \$13950.28 \quad \text{(to 2 d.p.)}
+\end{aligned} 
+$$
+### Question 2
 Part e) we use the future value
 Part f) Real is with inflation, nominal is not considering inflation

@@ -1,6 +1,3 @@
-### Forecast
-- Platforms
-- Basic Marketing
 ## A. Future Values and Compound Interest
 - Suppose it costs one $500,000 to open new restaurant in Orchard in one year
 - From Year 2 to 6, we gain $125,000 per year
@@ -9,7 +6,7 @@
 
 - Why do we need to measure value?
 	- i.e. use a weighing scale to "measure" of quantify the effectiveness of a particular diet
-	- need to measure for value (not good just to say how much we are getting, but when as well $\to$ determines the "value" of money as time goes on, which usually decreases)
+	- need to **measure for value** (not good just to say how much we are getting, but when as well $\to$ determines the "value" of money as time goes on, which usually decreases)
 	- time value of money equation provides a value of money in **different time periods**
 
 - We compare this to putting the $500,000 sum in the bank or a fixed deposit
@@ -38,9 +35,14 @@
 - has linear growth (in nature)
 - interest is a constant number
 
-- Key Idea: we need to convert the value to the same point in time, regardless of whether we discount or compound it
+- *Key Idea:* we need to convert the value to the **same point in time**, regardless of whether we discount or compound it
+$$
+\begin{aligned} 
+\\\\\\\\
+\end{aligned}
+$$
 ### Future Values
-$FV = 100 \times (1 + r)^t$
+$FV = \textbf{Principal Amount} \times (1 + r)^t$
 - $r$ has to correspond to $t$ (should be the same instance where we compute the value $\implies$ same scale and same unit)
 - rate $r$ or percentage per annum $\leftrightarrow$ time $t$ is in years  (if convert to month, need to change accordingly)
 
@@ -185,14 +187,14 @@ $$
 - In both Perpetuities & Annuities, we assume that they payment is $1$ year down the line.
 
 > **Perpetuities** is a stream of level cash payments that *never ends*
-- series of cash payments that never stops (we get money perpetually) $\implies$ use the mimic frequent payments
+- series of cash payments that *never stops* (we get money perpetually) $\implies$ use the mimic frequent payments
 - also known as "till infinity"
 - $[0, \infty)$
 - is known as a geometric progression (assume the rate $r \gt 0$ or is positive by default)
 $$
 \begin{aligned}
 PV &= \frac{c}{(1+ r)^t} \\\\
-PV_{\text{Perpetuity}} &= \frac{C}{r} \qquad \text{ where r } \gt 0 \quad \text{ and } \neq \frac{C}{1 + r} \text{ (Normal Present Value)}
+PV_{\text{Perpetuity}} &= \frac{C}{r} \qquad \text{ where r } \gt 0 \quad \text{ and } \neq \frac{C}{1 + r} \text{ (Normal Present Value)} \\\\\\\\\\\\
 \end{aligned}
 $$
 ##### Example 1a: In order to create an endowment, which pays $100,000 per year forever, how much money must be set aside today in the rate of interest is 10%?
@@ -235,13 +237,14 @@ $$
 $$
 \text{PVAF} = \left(\frac{1}{r} - \frac{1}{r(1+r)^t}\right) \quad \text{where C = 1 from } PV_{\text{Annuity}}
 $$
-
-##### Slide 35 Example: You are purchasing a car. You are scheduled to make 3 annual installments of $8,000 per year. Given a rate of interest of 10%, what is the price you are paying for the car (i.e., what is the PV)?
+##### Slide 35 Example: You are purchasing a car. You are scheduled to make 3 annual instalments of $8,000 per year. Given a rate of interest of 10%, what is the price you are paying for the car (i.e., what is the PV)?
 Method 1
 - discount each cash flow to today's currency
 - add it up
 $$
-\frac{8,000}{(1 + 0.1)^1} + \frac{8,000}{(1 + 0.1)^2} + \frac{8,000}{(1 + 0.1)^3} = 19,894.82
+\begin{aligned}
+\frac{8,000}{(1 + 0.1)^1} + \frac{8,000}{(1 + 0.1)^2} + \frac{8,000}{(1 + 0.1)^3} = \$ 19,894.82 \\\\\\
+\end{aligned}
 $$
 
 Method 2
