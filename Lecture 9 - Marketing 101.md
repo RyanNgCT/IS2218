@@ -32,7 +32,6 @@
 	- value captured $=$ price tag to the customer
 
 - Marketing Myopia: focusing on the wants instead of the underlying needs of people
-
 #### Case Study: Kodak
 - Film camera manufacturer
 	- films could not be reused and have to be developed into the end product
@@ -42,7 +41,6 @@
 - Kodak has Marketing Myopia
 	- people currently want camera films for the need to capture memories, but this doesn't mean that they need camera films (print it)
 	- should have pivoted to digital cameras
-
 
 #### Evolution of Marketing
 1. Industrial Revolution: production is done at scale
@@ -120,7 +118,6 @@ Example: Dyson
 1. Product Life Cycles have reduced
 2. Competition has increased because of Globalization
 3. Need to move from selling products to solutions instead
-
 
 #### Segmentation and Lifetime Value
 - should only spend a lower value than the lifetime value

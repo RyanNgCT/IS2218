@@ -193,6 +193,11 @@ As compared to traditional business, we can:
 - just having an additional feature
 	- charging recruiters to be able to present job opportunities to potential job seekers
 	- charging companies for the ability to compare and target various professionals based on their resumes
+$$
+\begin{aligned}
+\\\\
+\end{aligned}
+$$
 #### Charging for Enhanced Access
 - get additional information or data by paying a subscription fee (i.e. a Premium Feature in a Freemium model)
 	- pay per view
@@ -217,25 +222,148 @@ As compared to traditional business, we can:
 - alternatively can charge most users the full price while subsidizing those who are the top performers in the platform
 
 - have **price discrimination** based on price sensitivity
+	- discussed in the pricing topic at the end
 
 #### Monetization Principles
-1. Avoid charging for value that users have previously received for free
+1. Avoid **charging for value** that users have **previously received for free**
+	1. other platforms may "die" if they start changing customers what they previously could access for free (i.e. change the nature of their offering from free to all $\to$ pay for access)
+	2. people will be angry about it as the additional cost is not justified $\implies$ want to make sure that the **network effects remain unchanged**
 
-### Case Study: X
-Pre-Elon Twitter:
-- 80% Ads, 20% API Access
+2. Avoid reducing access to value that customers have already been customed to receive
+
+3. Strive to create **additional value** that **justifies** the **charges** imposed
+	1. Negative E.g.: Uber receiving criticisms for a safe rides fee for conducting background checks on drivers and allegedly cutting corners
+	2. Negative E.g.: charging for instantaneous access of tweets instead of a freemium version whereby we have a cooldown or delay of 10 mins etc. $\implies$ should not take away from value they enjoy right now (refer to main point $1$)
+
+4. Monetization Strategies should be considered when making the **initial platform choices**
+	1. If charging transaction fee $\implies$ platform must be able to control transaction (reverse if necessary, make sure the transaction does not happen outside of the platform)
+		1. need not start monetization immediately, but need to have the resources and the means to do so in future if it is planned for
+	2. If charging for access $\implies$ platform should be able to control avenues where content reaches users and the flow of user data as well
+	3. Charging for Enhanced Access (i.e. on top of the usual access that one has on the X platform)
+		1. pay money to talk to celebrities if they don't follow the customer on X
+		2. pay for the verified tick (i.e. used to be given to celebrities, instead of "buying" it)
+			1. does not verify the authenticity of the user
+		3. pay to increase the word or character limit
+		4. pay for dark mode
+		5. used to be 80% Ads, 20% API Access on X, so we can charge for API use
+			1. used to be publicly available versus being paywalled
+---
 ## Metrics
-- Metrics of the Pipeline Model
+- **Metrics for the Traditional Pipeline Model**
 	- overall focus of metrics used in the traditional pipeline business models is the efficiency with which values flows through a pipeline
-		- produce goods and services efficiently in sufficient numbers to meet demands (operations)
+		- produce goods and services efficiently in sufficient numbers to meet demands *(operations)*
+		- reach customers through proper channels with appropriate pricing *(marketing)*
+		- ensure adequate revenues generated to produce profits and value for shareholders *(finance)*
 
-- Most important Metric: Rate of Retraction Success
+	- some common metrics include: cash flows, inventory turnovers, operating income, gross margins, overhead (i.e. SG&A, which is not directly attributable to the sale), ROI etc.
 
-#### Metrics during the Start Up Phase
-1. Liquidity
-2. Matching Quality
-3. Trust
-4. Platform Specific Metrics
+- **Metrics for Platforms**
+	- can use metrics like cash flow, operating income
+	- However, metrics like inventory is not really suited since the platform business may not actually own the asset, as alluded to earlier.
+		- value is created through **network effects**, rather than tangible quantifiable indicators
+
+	- Most important Metric: *Rate of Interaction Success*
+		- most of the metrics should point to this
+		- focus should be on metrics that **quantify the success in generating desirable interactions** between platform participants
+
+	- should be actionable (clear guidance for strategic decisions and can take actionable steps), accessible (comprehensible for those wo need to use the info) and auditable
+
+	- metrics should measure # of happy customers on each side of the network who repeatedly engage in value creating interactions
+#### Metrics during the Start-up Phase
+1. **Liquidity**
+	- ensure that we have a **minimum number of participants** (producers and consumers), so that network effects kick in as a result of interaction between these parties
+		- using websites like *Statista* to determine the **number of active users** on a particular, more popularly use platform
+	- use the tracking of listings that lead to interactions and/or transactions for a given time period
+		- focus on the active usage rather than the # sign ups for the platform
+		- can use *ratios* and comparative metrics
+			- $\text{\# active to total ratio} = \frac{\text{Active users}}{\text{Total users}}$
+			- $\text{Rate of growth of Active Users} = \frac{\text{NEW Active users}}{\text{Total Active users}}$
+
+2. **Matching Quality**
+	- ensure *accuracy of matching algorithms*, dependent on the curation of material & content
+		- experience of users on the platform is good
+	- can do so by measuring the **percentages of searches leading to actual interactions** measured through the $\text{Sales Conversion Rate} = \frac{\text{Searchers leading to interaction}}{\text{Total searches}}$
+
+	- measure the *correlation* between interaction rate and long-term activity rate to come up with a threshold or baseline metric
+		- i.e. majority of users who experience interaction percentage is higher than 40% during their first week on the platform and who remain active members for $\geq 3$ months $\implies$ used to feedback into and enhance network effects
+		- platform actually has a higher interaction percentage or sales conversion rate (allows the platform to benefit)
+
+3. **Trust**
+	- enables for a degree in which users are *comfortable with level of risk* associated with interactions on the platform
+		- i.e. curation of products (i.e. photos of house type and amenities in Airbnb homes are legitimate)
+	
+	- is critical for platforms where people may interact with each other for the very first time (relationship building amongst network segments)
+		- ensure that both sides review each other (both the hosts and the the ones being hosted)
+
+4. **Platform Specific Metrics**
+	- $\exists$ a range of metrics to measure commitment to the ecosystem
+		- i.e. time between interactions (downtime of idle resources) and % of active users
+
+	- outcome-based metrics (usually for multi-sided)
+		- Number of nights booked on Airbnb
+		- Number of work hours on platforms like Upwork
+		- Number of rides per day on Grab
+
+	- content-creation metrics (usually for social media and content creation platforms)
+		- consumer relevance (% of positive reviews for listing from customers)
+		- co-creation (% of listing with some minimum level of positive response from potential customers)
+
+	- market access regardless of complete interaction
+		- \# women registered in dating sites
+		- restaurant reservation (does not matter if it is followed through)
+#### Metrics during the Growth Phase
+There is a need to use a different set of metrics after the start-up has amassed a large group of users to ensure that it is growing well (as ran by the managers of the company).
+
+Need to balance the needs of both consumers and producers alike, using metrics like:
+- **producer-to-consumer ratio**
+- **interaction conversion rate** (% of searches converted to interactions for the platform) $\implies$ similar to in the start-up phase
+- health of user base: using the **side switching rate** (i.e. go from being consumers $\to$ producers)
+
+1. Producer-Side
+	- frequency of producer participation
+	- listings created by producers
+	- outcomes achieved by producers
+
+	- platform needs to monitor interaction failure (searchers to interaction, but failed interactions and/or transactions)
+	- producer fraud (failure to deliver a product as advertised)
+	- retention and lifetime value metrics, similar to traditional businesses
+		- repeated producers on the platform $\implies$ usually are profitable so stay on the platform
+		- churn rates (% of producers who stop doing business) should be low
+
+2. Consumer-Side
+	- frequency of consumption, searches
+	- rate of conversion to sale (% of click-throughs that result in interactions)
+	- consumer retention and lifetime benefits
+		- promotion of customer loyalty and reducing churn
+#### Metrics during the Maturity Phase
+We usually don't have new sources of revenue or growth opportunities during this phase (should try to adapt instead)
+1. Driving Innovation
+	- platform needs to adapt to needs of users and changes in the competitive & regulatory env
+		- i.e. Microsoft Windows absorbing apps once provided by stand-alone companies and integrate it into the OS
+		- has to be done with care to avoid scaring the ecosystem (good integration)
+
+2. Incorporate 3rd party feature that provides a large share of value enjoyed by users that rivals competitor (i.e. Apple Maps, in response to Google Maps)
+
+---
 ## The Future
-- Industries that can resist disruption by platforms
+Types of businesses to join the platform revolution:
+1. *Information-intensive Industries:* value information highly and require platforms as information enablers
+2. *Industries w Non-scalable Gatekeepers:* i.e. Publishing Industries with only a few publishers
+3. *Highly-fragmented industries:* market aggregation increases efficiency and reduces search costs
+4. *Industries w extreme information asymmetries:* Carfax, which provides information to car buyers on more information about the condition and history of cars sold by dealers
 
+Industries that can resist disruption by platforms
+1. *High regulatory control:* Banking, Education, Healthcare, those that deal with PII which should not be open on the Internet
+2. *High Failure Costs:* i.e. matching a patient to the wrong doctor
+3. *Resource Intensive Industries* like Mining, Oil, gas and agriculture (need access to resources to maintain large scale processes)
+#### Fintech companies
+- money is a form of value accepted by all participants of an economic system, can also be the SGQR that one scans
+- Financial Platform companies try to leverage the info they have about spending patterns of a large number of customers
+- P2P lending platforms can provide cheaper loans and higher rates of interest (from the vast amount of data they collect) $\implies$ generate more revenue and value for the platform and the lender
+- Personal Finance Platforms to provide users with personalized services
+- Traditional Financial Institutions and Banks are beginning to use platform models
+#### Logistics & Transportation companies
+- platform model does not require vehicle fleet ownership, unlike more traditional logs businesses like FedEx
+- Platforms can leverage aggregate real time market info about movement on physical goods and orchestrate an ecosystem of 3rd party delivery agents (i.e. in Grab and GoJek)
+- Traditional Companies like Rolls Royce can scale demand for its customers (i.e. Engines for Airlines at all airports)
+	- platform business ideas can also affect companies like Rolls Royce
