@@ -29,6 +29,13 @@
 	- place: rental or ownership of tangible asset
 	- promotion: advertising spendings
 
+- cost-based pricing or value-based pricing
+	- look at CoGS + a small margin to obtain the price to charge (no competitive advantage)
+	- better: pricing based on the subjectivity and perception of the value that customer will receive
+
+- Lifetime Customer Value: value of a customer over their lifetime to one's business
+	- can make strategic and budget conscious marketing decisions to acquire the customers
+	- don't want to acquire customers at a loss (good ROI)
 ## B. Internal Factors Influencing Price
 - Economics $\implies$ Supply and Demand. Change at the intersection of both curves
 - Accounting $\implies$ based on variable and fixed costs
