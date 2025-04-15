@@ -112,6 +112,8 @@
 - sell a product **outside** the **authorized distribution and selling channels**
 - i.e. buying a luxury handbag in Europe vs in Singapore
 	- a.k.a. arbitrage (different prices for the same asset)
+
+- pricing should take into account the existence of parallel importing, if any
 #### Costs
 - floor price (costs) $\implies$ should avoid charging below CoGS to avoid making a loss overall
 	- note that CoGS can include both fixed and variable costs
@@ -144,6 +146,8 @@
 - pricing also depends on the **volume of products produced** $\implies$ as it affects the production costs associated with the products
 - do things in operations in a more cost-effective way with more experience
 	- experience curve drives down the price of products in general (learning to cut costs of the product, despite maybe maintaining the same kind of quality perhaps)
+
+- produce more goods to reduce per unit costs $\implies$ cannot associate it with a direct increase in revenue or profit margin
 ### C1. Internal Factors
 - Organization -- who sets the price?
 	- the top manager
@@ -152,30 +156,105 @@
 #### Market and Demand
 - have different forms of competition
 	- i.e. pure competition, monopolistic, oligopolistic etc.
+	- competitors differentiate themselves based on pricing and marketing decisions
+	- monopolistic $\implies$ two companies offering products that are similar but not identical
+	- monopoly $\implies$ only one source selling one particular product
 - price elasticity of demand
 #### Consumer Perceptions
 - the price-quality relationship
 	- some handbags cost as much as downpayment for house but some people see value in it
 - price can be used in the absence of other cues
-
 #### Competitors
-- can be a reference point for pricing (i.e. market research leading to competitor pricing)
+- can be a *reference point* for pricing (i.e. market research leading to competitor pricing) $\implies$ copy the price structure or strategy of competitors when starting out
 - Responsiveness (i.e. Pepsi vs Coke)
-	- the response of competitors to price changes
-	- if both lower price, then they both just lose profits
+	- the response of **competitors** to **price changes**
+	- if both lower price, then they both just **lose profits**
+
+- Product Homogeneity
+	- how similar are the products, which affects the price sensitivity as well
 #### Other Factors
+- economic conditions
+- distributor reactions
+	- reseller margins affected by the price (i.e. in Reseller Support as above)
+- government taxes on products
+	- Taxes are 60-70% more expensive in China than the US
 
+### C3. Price Skimming
+- charge a **high price initially** and as people willing to pay reduces, then we **reduce the price** for the next group of people who are not gone via churn
+	- consumers wanting to try product with a lower budget can then afford it (within their budget) $\implies$ based off customers willingness to pay for the product
+- can be used when we **do segmentation** on price elasticity
+	- target people whose **price elasticity is smaller** (i.e. don't buy fewer quantities of the product because the price has increased)
 
-### Price Skimming
-- charge a high price initially and as people willing to pay reduces, then we reduce the price for the next group of people
-	- consumers wanting to try product with a lower budget can then afford it (within their budget)
-- can be used when we do segmentation on price elasticity
-- public image of the product and company is good
-- should not reduce price $\implies$ $1 reduction in price would affect the bottom line / profit significantly, assuming that costs remain the same
+- public image of the product and company needs to good (Image Supportive)
+	- good product quality, product leadership and good branding
 
 - Safety/Hedge
 	- cut directly from the bottom line which can severely impact revenues and profits
-	- can be dangerous but since we are starting from a high price, we have more room to do the skimming
+	- can be dangerous but since we are **starting from a high price**, we have more room to do the skimming (i.e. reducing the price later)
+	- should not reduce price $\implies$ $1 reduction in price would affect the bottom line / profit significantly, assuming that costs remain the same
 
-### Price Penetration
-- use when when customers are price sensitive, or when the experience curve effects operatives and potential competition
+- no immediate competition when doing price skimming (because customers will just go for alternatives or competitors)
+
+### C4. Price Penetration
+- setting a low initial price to penetrate the market quickly and deeply
+	- we are selling on volume
+- attract a large no of buyers
+- use when when customers are **price sensitive**, or when the experience curve effects operatives and potential competition
+- experience curve effects if operative $\implies$ price is steeper so the cost per unit is reduced with more quantity sold
+
+### C5. Methods & Strategies
+1. **Cost-oriented strategies**
+	- not recommended to do this unless we are in industry with lots of players selling the same product
+	- Markup Pricing based on cost
+		- add a predetermined % to the product cost ($25\%$ markup to $\$1$ water will cost $\$1.25$)
+		- simple and easy to use
+		- is equitable for both the buyer and the seller
+		- focuses on the cost of the product and **neglects demand** and customer's willingness to pay more for products that they value
+
+	- Markup Pricing based on sales
+		- variation of the above
+		- considers sales volume and neglects demand
+
+	- Target profit pricing (not recommended)
+		- predetermined return on capital used to produce and market a product
+		- target return is based on the standard volume
+		- $X$ is not known, so we usually use the historical figures
+		$$
+		P = DVC + \frac{FC}{X} + \frac{rK}{X}
+		$$
+		- $\frac{FC}{X} \implies$ fixed cost per unit sold
+		- $\frac{rK}{X} \implies$ per unit return for investors
+
+2. **Demand-oriented Pricing**
+	- methods used to affect consumer perceptions and behaviour
+	- Perceived-value Pricing
+		- charge customers on their willingness to pay
+		- is the soundest approach and consistent with the marketing concept
+		- how to increase the perception of the value of the product
+
+	- Odd / Psychological Pricing
+		- set prices below even dollar amounts
+		- used to connote lower price level by rounding down
+
+	- Loss Leader Pricing
+		- sell products at a loss to increase foot traffic and overall profits
+
+	- Optional product pricing
+		- charge for add-ons on top of the base price that one pays (i.e. Tune Hotels)
+		- those who want can buy it $\implies$ price discrimination
+			- pay only up to what they are willing to pay by charging in different tiers
+			- upgrade to higher tiers for more value and benefits
+		- price of the optional product can fluctuate from day-to-day based on the demand for the product or service
+
+	- Captive product pricing
+		- products to be used in conjunction with a main product
+			- i.e. ink refill cartridges for a printer, replacement razer blades
+		- main product is cheap, but the captive products are expensive
+
+	- Bundled Pricing
+		- good way to make people buy things they don't actually want or need
+
+	- Price Discrimination
+		- charging different prices for peak and off-peak periods
+		- charging different prices based on the place and the customer segment
+		- is not in the negative sense, but rather charging different prices based on the willingness to pay
